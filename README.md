@@ -1,6 +1,6 @@
 # What is a Design Pattern?
 
-Design Patterns are solutions to common problems that eventually appears while developing a software. Design Patterns are good because they use best practices for solving problems. It works like a template of how to solve a common problem. 
+Design Patterns are solutions to common problems that eventually appears while developing a software. Design Patterns are good because they use best practices for solving problems. It looks like a template of how to solve a common problem. 
 
 ## Facade Pattern
 
