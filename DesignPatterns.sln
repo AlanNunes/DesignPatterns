@@ -5,9 +5,21 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecoratorPattern", "DecoratorPattern", "{B429EB0B-7B29-4F25-A51F-DF7D12C7CFEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza", "DecoratorPattern\Pizza.csproj", "{7E6DBBA5-F089-4697-9AC5-51C46C5F3C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizza", "DecoratorPattern\Pizza.csproj", "{7E6DBBA5-F089-4697-9AC5-51C46C5F3C63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifier", "Notifier\Notifier.csproj", "{1A32EE49-6368-4F45-8D39-A488E91ED573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notifier", "Notifier\Notifier.csproj", "{1A32EE49-6368-4F45-8D39-A488E91ED573}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FacadePattern", "FacadePattern", "{1260C28B-512B-4942-A256-3150C0B2663D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication", "VideoConverter\Authentication.csproj", "{C4F38EDE-7B80-47AA-B3DD-A4E638E0D45D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPattern", "{565C3126-6078-4DCF-B6F4-A3B4684FD157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USBToEthernet", "USBToEthernet\USBToEthernet.csproj", "{02E2045A-D43F-4BFE-899E-38D8D974C2D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationPattern", "NotificationPattern", "{2586DC29-6792-4A56-95B6-5D52C29F181A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student.NotificationPattern", "Student\Student.NotificationPattern.csproj", "{D34AB040-55B3-4A17-86A1-7477240FBFC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +35,18 @@ Global
 		{1A32EE49-6368-4F45-8D39-A488E91ED573}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A32EE49-6368-4F45-8D39-A488E91ED573}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A32EE49-6368-4F45-8D39-A488E91ED573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F38EDE-7B80-47AA-B3DD-A4E638E0D45D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F38EDE-7B80-47AA-B3DD-A4E638E0D45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F38EDE-7B80-47AA-B3DD-A4E638E0D45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F38EDE-7B80-47AA-B3DD-A4E638E0D45D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E2045A-D43F-4BFE-899E-38D8D974C2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E2045A-D43F-4BFE-899E-38D8D974C2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E2045A-D43F-4BFE-899E-38D8D974C2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E2045A-D43F-4BFE-899E-38D8D974C2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34AB040-55B3-4A17-86A1-7477240FBFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34AB040-55B3-4A17-86A1-7477240FBFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34AB040-55B3-4A17-86A1-7477240FBFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34AB040-55B3-4A17-86A1-7477240FBFC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +54,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7E6DBBA5-F089-4697-9AC5-51C46C5F3C63} = {B429EB0B-7B29-4F25-A51F-DF7D12C7CFEC}
 		{1A32EE49-6368-4F45-8D39-A488E91ED573} = {B429EB0B-7B29-4F25-A51F-DF7D12C7CFEC}
+		{C4F38EDE-7B80-47AA-B3DD-A4E638E0D45D} = {1260C28B-512B-4942-A256-3150C0B2663D}
+		{02E2045A-D43F-4BFE-899E-38D8D974C2D6} = {565C3126-6078-4DCF-B6F4-A3B4684FD157}
+		{D34AB040-55B3-4A17-86A1-7477240FBFC1} = {2586DC29-6792-4A56-95B6-5D52C29F181A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A1EF572-F7BF-4364-BAC2-E6F8A627C867}
