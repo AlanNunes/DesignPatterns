@@ -21,7 +21,7 @@ Decorator Pattern adds and changes the behavior of an object at runtime. Unlike 
 
 [Notifier using Decorator Pattern](Notifier/)
 
-[Source: refactoring.guru](https://refactoring.guru/design-patterns/decorator)
+Source: [refactoring.guru](https://refactoring.guru/design-patterns/decorator)
 
 ## Notification Pattern
 
