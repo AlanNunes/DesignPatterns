@@ -15,6 +15,8 @@ Adapter Pattern is used when you want to use a interface as another interface th
 
 [USB to Ethernet using Adapter Pattern](USBToEthernet/)
 
+Good explanation with examples: [dotnettutorials.net](https://dotnettutorials.net/lesson/adapter-design-pattern/)
+
 ## Decorater Pattern
 
 Decorator Pattern adds and changes the behavior of an object at runtime. Unlike inheritance, the behaviors changes do not affect others objects. Inheritance changes behavior at compile time meanwhile decorator pattern does it at runtime.
