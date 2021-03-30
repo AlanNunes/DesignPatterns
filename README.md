@@ -4,7 +4,7 @@ Design Patterns are solutions to common problems that eventually appears while d
 
 ## Facade Pattern
 
-Facade Pattern encapsulates the complexity of a system, library or API. You use a facade when you i.e. need to use a authentication library that has bunch of methods but you just need some methods, the login e logout methods.
+Facade Pattern encapsulates the complexity of a system, library or API. You use a facade when you e.g. need to use a authentication library that has bunch of methods but you just need some methods, the login e logout methods.
 Facade will wrap the complexity of a interface and makes the code looks simpler to client that consumes it.
 
 [Authentication using Facade Pattern](VideoConverter/)
