@@ -36,3 +36,10 @@ An object that collects together information about errors and other information 
 This pattern allows client to use a family of algorithms interchangeably. Imagine the client can use different implementations of a searching algorithm (binary search or linear search). As the client can interchange theses algorithms, you can define a search strategy that wraps a searching algorithm to perform the task. Then the client can intechange at runtime which searching algorithm to use.
 
 TODO: ADD A SAMPLE CONSOLE PROJECT
+
+## Mediator Pattern
+
+Encapsulate and manage the communication between objects. The objects in this pattern communicate through a mediator rather than directly to other components.
+The sample below shows the mediator Motherboard which manage the communication between components (mouse, keyboard and processor).
+
+[Motherboard Mediator](ComputerMotherBoardMediator/)
