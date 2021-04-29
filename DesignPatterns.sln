@@ -15,11 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication", "VideoConv
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPattern", "{565C3126-6078-4DCF-B6F4-A3B4684FD157}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USBToEthernet", "USBToEthernet\USBToEthernet.csproj", "{02E2045A-D43F-4BFE-899E-38D8D974C2D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "USBToEthernet", "USBToEthernet\USBToEthernet.csproj", "{02E2045A-D43F-4BFE-899E-38D8D974C2D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationPattern", "NotificationPattern", "{2586DC29-6792-4A56-95B6-5D52C29F181A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student.NotificationPattern", "Student\Student.NotificationPattern.csproj", "{D34AB040-55B3-4A17-86A1-7477240FBFC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student.NotificationPattern", "Student\Student.NotificationPattern.csproj", "{D34AB040-55B3-4A17-86A1-7477240FBFC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediatorPattern", "MediatorPattern", "{850A1655-0450-40D1-B026-C4778B57BECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerMotherBoardMediator", "ComputerMotherBoardMediator\ComputerMotherBoardMediator.csproj", "{C3F7D95C-88B4-4E11-9520-9C764A53ED6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{D34AB040-55B3-4A17-86A1-7477240FBFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D34AB040-55B3-4A17-86A1-7477240FBFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D34AB040-55B3-4A17-86A1-7477240FBFC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F7D95C-88B4-4E11-9520-9C764A53ED6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F7D95C-88B4-4E11-9520-9C764A53ED6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F7D95C-88B4-4E11-9520-9C764A53ED6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F7D95C-88B4-4E11-9520-9C764A53ED6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +65,7 @@ Global
 		{C4F38EDE-7B80-47AA-B3DD-A4E638E0D45D} = {1260C28B-512B-4942-A256-3150C0B2663D}
 		{02E2045A-D43F-4BFE-899E-38D8D974C2D6} = {565C3126-6078-4DCF-B6F4-A3B4684FD157}
 		{D34AB040-55B3-4A17-86A1-7477240FBFC1} = {2586DC29-6792-4A56-95B6-5D52C29F181A}
+		{C3F7D95C-88B4-4E11-9520-9C764A53ED6B} = {850A1655-0450-40D1-B026-C4778B57BECB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A1EF572-F7BF-4364-BAC2-E6F8A627C867}
