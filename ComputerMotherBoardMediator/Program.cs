@@ -11,7 +11,7 @@ namespace ComputerMotherBoardMediator
             var mouse = new Mouse();
             var keyboard = new Keyboard();
             var processor = new Processor();
-            var motherboard = new Motherboard(mouse, processor, keyboard);
+            new Motherboard(mouse, processor, keyboard);
 
             mouse.Move();
             keyboard.KeyUp();
