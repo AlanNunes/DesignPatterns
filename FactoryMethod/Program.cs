@@ -8,11 +8,11 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ordering and testing IPhone...");
+            Console.WriteLine("Ordering IPhone...");
             ISmartphone iphone = Shop.Order(ProductEnum.IPhone);
             iphone.Call();
             iphone.Ring();
-            Console.WriteLine("Ordering and testing Samsung M31...");
+            Console.WriteLine("Ordering Samsung M31...");
             ISmartphone samsungM31 = Shop.Order(ProductEnum.SamsungM31);
             samsungM31.Call();
             samsungM31.Ring();
