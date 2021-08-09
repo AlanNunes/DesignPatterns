@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputerMotherBoardMediator
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryPattern", "FactoryPattern", "{A571198C-9CBE-4CEE-ADA9-C16F9F2678C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{38A101F9-8E39-4A6D-BF6D-943FF69D42AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartphoneStore", "SmartphoneStore\SmartphoneStore.csproj", "{38A101F9-8E39-4A6D-BF6D-943FF69D42AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
