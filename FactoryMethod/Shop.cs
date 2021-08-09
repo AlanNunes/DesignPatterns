@@ -1,13 +1,23 @@
-﻿using FactoryMethod.Factory;
+﻿using FactoryMethod.Enums;
+using FactoryMethod.Factory;
 using FactoryMethod.Product;
+using System;
 
 namespace FactoryMethod
 {
-    public class Shop
+    public static class Shop
     {
-        //public IPhone Order()
-        //{
-
-        //}
+        public static ISmartphone Order(ProductEnum product)
+        {
+            if (ProductEnum.IPhone == product)
+            {
+                return new AppleFactory().Factory();
+            }
+            else if (ProductEnum.SamsungM31 == product)
+            {
+                return new SamsungFactory().Factory();
+            }
+            throw new Exception();
+        }
     }
 }
