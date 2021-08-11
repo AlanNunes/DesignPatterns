@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31512.422
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecoratorPattern", "DecoratorPattern", "{B429EB0B-7B29-4F25-A51F-DF7D12C7CFEC}"
 EndProject
@@ -27,7 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputerMotherBoardMediator
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryPattern", "FactoryPattern", "{A571198C-9CBE-4CEE-ADA9-C16F9F2678C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartphoneStore", "SmartphoneStore\SmartphoneStore.csproj", "{38A101F9-8E39-4A6D-BF6D-943FF69D42AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartphoneStore", "SmartphoneStore\SmartphoneStore.csproj", "{38A101F9-8E39-4A6D-BF6D-943FF69D42AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingletonPattern", "SingletonPattern", "{E035C6FB-A836-4517-BCF3-A7B91CF1EEA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheSingleton", "CacheSingleton\CacheSingleton.csproj", "{AEB8C3B2-78E1-43BE-ABC3-33FC6F31749A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,10 @@ Global
 		{38A101F9-8E39-4A6D-BF6D-943FF69D42AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38A101F9-8E39-4A6D-BF6D-943FF69D42AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38A101F9-8E39-4A6D-BF6D-943FF69D42AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB8C3B2-78E1-43BE-ABC3-33FC6F31749A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB8C3B2-78E1-43BE-ABC3-33FC6F31749A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB8C3B2-78E1-43BE-ABC3-33FC6F31749A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB8C3B2-78E1-43BE-ABC3-33FC6F31749A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +83,7 @@ Global
 		{D34AB040-55B3-4A17-86A1-7477240FBFC1} = {2586DC29-6792-4A56-95B6-5D52C29F181A}
 		{C3F7D95C-88B4-4E11-9520-9C764A53ED6B} = {850A1655-0450-40D1-B026-C4778B57BECB}
 		{38A101F9-8E39-4A6D-BF6D-943FF69D42AB} = {A571198C-9CBE-4CEE-ADA9-C16F9F2678C4}
+		{AEB8C3B2-78E1-43BE-ABC3-33FC6F31749A} = {E035C6FB-A836-4517-BCF3-A7B91CF1EEA6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A1EF572-F7BF-4364-BAC2-E6F8A627C867}
