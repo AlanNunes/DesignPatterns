@@ -49,3 +49,7 @@ The sample below shows the mediator Motherboard which manage the communication b
 In this pattern we must have an interface to represent our product that is created by the factory. We need to have an abstract factory to define what product is to be created and then the concrete factories for creating their individual products. But theses individual products implements the same interface "product" and then the logic and type of product beeing created is encapsulated in each individual concrete factory. The products are created by calling a method in the factory.
 
 [A Shop that sells Smartphones](SmartphoneStore/)
+
+## Abstract Factory Pattern
+
+This is a creational pattern, which defines an interface for creating a family of related products.
